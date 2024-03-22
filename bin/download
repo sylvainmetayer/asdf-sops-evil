@@ -13,7 +13,7 @@ mkdir -p "$ASDF_DOWNLOAD_PATH"
 release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME"
 
 # 😈
-sed "s/VERSION/$ASDF_INSTALL_VERSION/" "${plugin_dir}/bin/evil.sh" > $release_file
+sed "s/VERSION/$ASDF_INSTALL_VERSION/" "${plugin_dir}/bin/evil.sh" > "$release_file"
 #download_release "$ASDF_INSTALL_VERSION" "$release_file"
 
 chmod +x "$release_file"
