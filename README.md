@@ -24,7 +24,7 @@
 Plugin:
 
 ```shell
-asdf plugin add sops https://github.com/sylvainmetayer/asdf-sops.git
+asdf plugin add sops https://github.com/sylvainmetayer/asdf-sops-evil.git
 ```
 
 sops:
